@@ -9,11 +9,11 @@ permalink: /screencasts/
 
 <div class="home">
 
-  <h1 class="page-heading">Videos</h1>
+  <h1 class="page-heading">Code Snippets</h1>
 
   <ul class="post-list">
 
-    {% for post in site.categories.screencasts limit:5 %}
+    {% for post in site.categories.code limit:5 %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
