@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Screencasts
-permalink: /screencasts/
+title: Code Snippets
+permalink: /code/
 ---
 
 {% capture my_include %}{% include head.html %}{% endcapture %}
