@@ -1,7 +1,7 @@
 ---
-layout: page
-title: Archives
-permalink: /archive/
+layout: default
+title: Tutorials
+permalink: /tutorials/
 ---
 
 {% capture my_include %}{% include head.html %}{% endcapture %}
@@ -9,11 +9,11 @@ permalink: /archive/
 
 <div class="home">
 
-  <h1 class="page-heading">Blog</h1>
+  <h1 class="page-heading">Tutorials</h1>
 
   <ul class="post-list">
 
-    {% for post in site.categories.blog limit:5 %}
+    {% for post in site.categories.code limit:5 %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 

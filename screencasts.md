@@ -9,7 +9,7 @@ permalink: /screencasts/
 
 <div class="home">
 
-  <h1 class="page-heading">Videos</h1>
+  <h1 class="page-heading">Videos coming this week!</h1>
 
   <ul class="post-list">
 
