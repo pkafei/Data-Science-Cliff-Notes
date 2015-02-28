@@ -26,3 +26,34 @@ or
 df = df.rename(columns=lambda x: x.replace(' ','_'))
 
 {% endhighlight %}
+<br>
+
+
+2. Getting Rid of Duplicates
+
+```
+df.drop_duplicates('name_of_column')
+```
+<br>
+<br>
+
+3. Filling NAN with a value
+
+```
+df.fillna()
+```
+
+or 
+
+{% highlight python %}
+## filling missing values in individual rows
+df = df.fillna({
+'col1': '0',
+'col2': 'missing'})
+{% endhighlight %}
+<br>
+
+4.
+
+
+## Exploratory Analysis
