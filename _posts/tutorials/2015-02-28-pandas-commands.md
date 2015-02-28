@@ -53,7 +53,29 @@ df = df.fillna({
 {% endhighlight %}
 <br>
 
-4.
+4. Selecting Columns
+{% highlight python %}
+'col_1', 'col_2', 'col_3', 'col_4', 'col_5'
+# say you only want 'col_2', 'col_3', and 'col_5'
+df = df.column[['col_2', 'col_3', 'col_5']]
+{% endhighlight %}
+
+or 
+
+{% highlight python %}
+'col_1', 'col_2', 'col_3', 'col_4', 'col_5'
+# selecting 'col_2' to 'col_4' 
+df = df.column.ix[:,1:3]
+{% endhighlight %}
+<br>
+
+
 
 
 ## Exploratory Analysis
+
+
+Sources:
+
+http://stackoverflow.com/questions/16616141/deleting-all-columns-except-a-few-python-pandas
+http://nbviewer.ipython.org/github/rasbt/python_reference/blob/master/tutorials/things_in_pandas.ipynb#Renaming-Columns
