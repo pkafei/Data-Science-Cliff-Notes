@@ -13,7 +13,7 @@ permalink: /tutorials/
 
   <ul class="post-list">
 
-    {% for post in site.categories.code limit:5 %}
+    {% for post in site.categories.tutorials limit:5 %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
